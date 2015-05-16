@@ -1,1 +1,0 @@
-dd bs=512 count=1 if=Boot/boot1.bin of=\\.\a:
