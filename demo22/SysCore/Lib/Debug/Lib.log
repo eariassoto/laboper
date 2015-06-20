@@ -1,0 +1,23 @@
+﻿Build started 6/20/2015 9:47:01 AM.
+     1>Project "C:\Users\b30640\laboper\demo22\SysCore\Lib\Lib.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I..\Include\ /Zi /nologo /W4 /WX- /O2 /Oy /D ARCH_X86 /X /Gm- /MD /Zp1 /GS- /fp:precise /Zc:wchar_t /Zc:forScope /GR- /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt cstd.cpp stdio.cpp string.cpp
+         cstd.cpp
+         stdio.cpp
+     1>C:\Users\b30640\laboper\demo22\SysCore\Include\ctype.h(39): warning C4005: 'isascii' : redefinición de macro
+                 C:\Users\b30640\laboper\demo22\SysCore\Include\ctype.h(28) : vea la definición anterior de 'isascii'
+     1>stdio.cpp(137): warning C4146: operador unario menos aplicado a un tipo unsigned; el resultado aún no tiene signo
+     1>stdio.cpp(161): warning C4146: operador unario menos aplicado a un tipo unsigned; el resultado aún no tiene signo
+     1>stdio.cpp(224): warning C4146: operador unario menos aplicado a un tipo unsigned; el resultado aún no tiene signo
+         string.cpp
+         Generando código...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"C:\Users\b30640\laboper\demo22\SysCore\Debug\Lib.lib" /NOLOGO Debug\cstd.obj
+         Debug\stdio.obj
+         Debug\string.obj
+         Lib.vcxproj -> C:\Users\b30640\laboper\demo22\SysCore\Debug\Lib.lib
+     1>Done Building Project "C:\Users\b30640\laboper\demo22\SysCore\Lib\Lib.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.00

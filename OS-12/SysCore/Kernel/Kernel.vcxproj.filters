@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Init">
+      <UniqueIdentifier>{45f0702e-b7b5-4128-8cc4-aa8ddb74198c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Debug">
+      <UniqueIdentifier>{66aaed09-0479-4104-8c8d-813575c293ce}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="entry.cpp">
+      <Filter>Init</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Init</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugDisplay.cpp">
+      <Filter>Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="exception.cpp" />
+    <ClCompile Include="mmngr_phys.cpp" />
+    <ClCompile Include="mmngr_virtual.cpp" />
+    <ClCompile Include="panic.cpp" />
+    <ClCompile Include="vmmngr_pde.cpp" />
+    <ClCompile Include="vmmngr_pte.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DebugDisplay.h">
+      <Filter>Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="exception.h" />
+    <ClInclude Include="mmngr_phys.h" />
+    <ClInclude Include="mmngr_virtual.h" />
+    <ClInclude Include="vmmngr_pde.h" />
+    <ClInclude Include="vmmngr_pte.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc" />
+  </ItemGroup>
+</Project>

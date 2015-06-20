@@ -1,0 +1,18 @@
+﻿Build started 6/6/2015 9:41:10 AM.
+     1>Project "C:\Users\b30640\laboper\OS-12\SysCore\Lib\Lib.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I..\Include\ /Zi /nologo /W4 /WX- /O2 /Oy /D ARCH_X86 /X /Gm- /MD /Zp1 /GS- /fp:precise /Zc:wchar_t /Zc:forScope /GR- /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt cstd.cpp stdio.cpp string.cpp
+         cstd.cpp
+         stdio.cpp
+         string.cpp
+         Generando código...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"C:\Users\b30640\laboper\OS-12\SysCore\Debug\Lib.lib" /NOLOGO Debug\cstd.obj
+         Debug\stdio.obj
+         Debug\string.obj
+         Lib.vcxproj -> C:\Users\b30640\laboper\OS-12\SysCore\Debug\Lib.lib
+     1>Done Building Project "C:\Users\b30640\laboper\OS-12\SysCore\Lib\Lib.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.64
